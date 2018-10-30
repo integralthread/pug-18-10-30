@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[pipenv]
+allow_prereleases = true
+
+[dev-packages]
+pytest = "*"
+black = "*"
+pylint = "*"
+
+[packages]
+beautifulsoup4 = "*"
+requests = "*"
+structlog = "*"
+arrow = "*"
+sh = "*"
+
+[requires]
+python_version = "3.7"
